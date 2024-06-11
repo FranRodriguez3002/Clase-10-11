@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #F295B2;
+    padding-top: 1px;
+}
+
+nav {
+    position: relative;
+    top: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 0px auto;
+    height: 70px;
+    width: 900px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #575757;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: #F295B2;
+}
+
+.titulo {
+    color: #F295B2;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav li span {
+    color: #62C3E6;
+}
+
+.port-titulo {
+    text-align: center;
+    position: relative;
+    top: -550px;
+    color: white;
+}
+
+.titulo2 {
+    font-size: 60px;
+}
+
+.portada button {
+    margin-top: 20px;
+    background-color: #F295B2;
+    width: 150px;
+    border-radius: 50px;
+    padding: 12px;
+    color: #fdebe7;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    transition: all 0.5s;
+}
+
+.boton:hover {
+    transform: scale(1.2);
+    border: 1px solid palevioletred
+}
+
+.linea {
+    width: 9%;
+    height: 4px;
+    margin: auto;
+    margin-top: -180px;
+    background-color: #F295B2;
+}
+
+.products {
+    padding: 50px  30px;
+    height: 700px;
+    text-align: center;
+    color: #575757;
+}
+
+.products p {
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.product {
+    background-color: #F295B2;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(83, 65, 65, 0.1);
+    color: white;
+}
+
+.products h2 {
+    margin-bottom: 15px;
+}
+
+.product img {
+   max-width: 100%;
+   height: auto;
+   transition: all 1s ease;
+   padding-bottom: 10px;
+}
+
+.product img:hover{
+    transform:scale(1.05);
+}
+
+footer {
+    height: 100px;
+    background-color: #575757;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+footer i:hover {
+    transform: scale(1.2);
+}
